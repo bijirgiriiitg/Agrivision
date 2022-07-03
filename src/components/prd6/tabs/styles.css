@@ -1,0 +1,432 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Ak {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+  color: rgb(8, 7, 7);
+  height: 100vh;
+}
+.Akk {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+  color: rgb(8, 7, 7);
+  height: 100vh;
+  margin-top: -15%;
+  margin-left: 26%;
+}
+.Appyy {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+  color: rgb(8, 7, 7);
+  height: 100vh;
+  margin-left: 25%;
+  margin-top: -15%;
+
+}
+.chevrony{
+  margin-top: 1.5%;
+  color: rgb(146, 236, 206);
+  font-size: 20px;
+}
+.tab31{
+  font-size: 33px;
+  color: green;
+}
+.tab4{
+  font-size: 20px;
+  color: green;
+  margin: 33vw;
+  margin-left: -8.5%;
+  position: absolute;
+  font-weight: bold;
+  width: 30%;
+
+}
+.tab5{
+  font-size: 13px;
+  color: black;
+  margin: 35vw;
+  text-align: left;
+  margin-left: 0%;
+  position: absolute;
+  width: 55%;
+  letter-spacing: 0px;
+
+}
+.tab6{
+  font-size: 13px;
+  color: black;
+  margin: 39vw;
+  text-align: left;
+  margin-left: 1%;
+  position: absolute;
+  width: 55%;
+  padding: 5px;
+  letter-spacing: 0px;
+
+}
+.tab8{
+  font-size: 13px;
+  color: black;
+  margin: 40.5vw;
+  text-align: left;
+  margin-left: 1%;
+  position: absolute;
+  width: 55%;
+  padding: 5px;
+  letter-spacing: 0px;
+
+}
+.tab9{
+  font-size: 13px;
+  color: black;
+  margin: 42vw;
+  text-align: left;
+  margin-left: 1%;
+  position: absolute;
+  width: 55%;
+  padding: 5px;
+  letter-spacing: 0px;
+
+}
+.tab10{
+  font-size: 13px;
+  color: black;
+  margin: 43.5vw;
+  text-align: left;
+  margin-left: 1%;
+  position: absolute;
+  width: 55%;
+  padding: 5px;
+  letter-spacing: 0px;
+
+}
+.tab7{
+  font-size: 40px;
+  padding: 0px 15px;
+}
+.org{
+  margin-top: 3.5%;
+  position:absolute;
+  width: 50%;
+}
+.org1{
+  margin-top: 3.5%;
+  position:absolute;
+  width: 40%;
+  margin-left: 5%;
+}
+.bt01{
+  border-radius: 2px;
+  height: 700px;
+  width: 35vw;
+  display: flex;
+  margin-left: 30%;
+  position: absolute;
+}
+.bt0{
+  background-color: #fff;
+  height: 3vw;
+  color: #fff;
+  border-radius: 3px;
+  border-color: green;
+  font-weight: 600;
+  margin: -4px 10px;
+}
+.bt0:hover{
+  background-color: none;
+}
+.oye100{
+  font-size: 35px;
+  position: absolute;
+  padding: 0px 3px;
+  margin-left: -25%;
+  margin-top: -3%;
+}
+.bt140{
+  margin: 45vw;
+  background-color: none ;
+  margin-left: 0px;
+  color: #fff;
+  position: absolute;
+  border: none;
+  width: 40%;
+  margin-left: -3%;
+}
+.bt3{
+  margin: 48vw;
+  margin-left: -10.5%;
+  width: 50%;
+  position: absolute;
+}
+.bt5{
+  background-color: #30a9f4 ;
+  border-color: black;
+  margin-top: 1px;
+  margin-left: 5vw;
+  width: 23vw;
+}
+#small41 {
+  padding-top: 3%;
+  width: 53vw;
+  position: absolute;
+  margin: 50vw;
+  margin-left: 0%;
+
+}
+.btnn11{
+  margin: -1vw;
+  margin-left: -14%;
+  display: flex;
+  width: 50vw;
+}
+.bt111{
+  margin: 0px 20px;
+  background-color: #15be86 ;
+  margin-left: 0px;
+  color: #fff;
+  border: none;
+}
+.bt121{
+  background-color: #15be86;
+  margin-top: 1px;
+  margin-left: 5vw;
+  color: #fff;
+  border: none;
+}
+.title41 {
+  font-size: 20px;
+  width: 50%;
+  margin: 5vw 15vw;
+  font-weight: bold;
+  margin-top: 5%;
+  color: rgb(22, 121, 70);
+}
+.card91 {
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 15vw;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1500px) {
+  .bt01{
+    margin-left: 35%;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .bt01{
+    margin-left: 37%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .bt01{
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .bt01{
+    margin-left: 40%;
+    
+  }
+  .tab31{
+    font-size: 28px;
+  }
+  .tab6{
+    margin-top: 47vw;
+    line-height: 1%;
+  }
+  .tab8{
+    margin-top: 49vw;
+    line-height: 1%;
+  }
+  .tab9{
+    margin-top: 51vw;
+    line-height: 1%;
+  }
+  .tab10{
+    margin-top: 53vw;
+    line-height: 1%;
+  }
+  .bt3{
+    margin-top: 58%;
+  }
+  #small41{
+    margin-top: 63%;
+  }
+  .card91{
+    height: 25vw;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  a {
+    display: none;
+  }
+  .card91-body .card91-text {
+    margin: 0;
+  }
+  .bt01{
+    border-radius: 2px;
+    height: 700px;
+    width: 38vw;
+    display: flex;
+    margin-left: 35%;
+  }
+  .tab31{
+    font-size: 20px;
+  }
+  .oye100{
+    font-size: 25px;
+
+  }
+  .tab4{
+    margin-left: -5%;
+  }
+  .bt0{
+    font-size: 13px;
+  }
+  .tab6{
+    margin-top: 47vw;
+    line-height: 1%;
+  }
+  .tab8{
+    margin-top: 49vw;
+    line-height: 1%;
+  }
+  .tab9{
+    margin-top: 51vw;
+    line-height: 1%;
+  }
+  .tab10{
+    margin-top: 53vw;
+    line-height: 1%;
+  }
+  .bt3{
+    margin-top: 58%;
+  }
+  #small41{
+    margin-top: 63%;
+  }
+  .card91{
+    height: 25vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .tab31{
+    font-size: 18px;
+  }
+  .paisa{
+    position: absolute;
+    top: 28vw;
+    width: 100%;
+  }
+  .bt01{
+   position: absolute;
+   margin-top: 5%;
+   margin-left: 15%;
+  }
+  .org1{
+    margin-top: 14%;
+  }
+  .tab4{
+    margin-top: 45vw;
+    margin-left: -30%;
+    width: 100%;
+  }
+  .tab5{
+    margin-top: 49vw;
+  }
+  .tab6{
+    margin-top: 85vw;
+    line-height: 1%;
+  }
+  .tab8{
+    margin-top: 92vw;
+    line-height: 1%;
+  }
+  .tab9{
+    margin-top: 99vw;
+    line-height: 1%;
+  }
+  .tab10{
+    margin-top: 106vw;
+    line-height: 1%;
+  }
+  .org{
+    margin-top: 14%;
+  }
+  .bt140{
+    margin-top: 53%;
+  }
+  .bt0{
+    padding: 0vw 0;
+  }
+  #small41{
+    margin-top: 135vw;
+  }
+  .card91{
+    height: 35vw;
+  }
+  .title41{
+    font-size: 15px;
+    margin-left: 30%;
+  }
+  .bt3{
+    margin-top: 120vw;
+    width: 60%;
+    margin-left: -17%;
+  }
+  .btnn11{
+    margin-left: -22%;
+  }
+
+
+}
+@media only screen and (max-width: 720px) {
+  
+  .bt01{
+    width: 50vw;
+  }
+  .bt0{
+    margin-left: -30px;
+    margin-left: -3%;
+    font-size: 11px;
+    position: relative;
+    padding: 0vw 0;
+  }
+  .oye100{
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btnn11{
+    margin-left: -28%;
+  }
+
+  
+}
+.ok{
+  font-size: 20px;
+  margin-left: 95%;
+  position: relative;
+  margin-top: 0%;
+}
+.paisa{
+  font-size: medium;
+  font-weight: bold;
+  margin: 49vw;
+  position: absolute;
+  margin-left: 22%;
+  text-decoration-line: underline;
+  width: 10vw;
+}
+.shi{
+  color: #0d9631;
+}

@@ -1,0 +1,226 @@
+.overview__nav {
+  height: 3rem;
+  background: linear-gradient(86.94deg, #1bbc9b 0%, #1bbc9b 0.01%, #16a086 100%);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+.overview__btns {
+  padding-top: 1%;
+  padding-left: 2.5%;
+}
+.overview__btn-hover {
+  background: linear-gradient(86.94deg, #1bbc9b 0%, #1bbc9b 0.01%, #16a086 100%);
+  border-radius: 4px 4px 0px 0px;
+  font-size: 12px;
+}
+.overview__btn {
+  background: #e8f3ff;
+  border-radius: 4px 4px 0px 0px;
+  color: black;
+  font-size: 12px;
+  border: none;
+}
+.overview__leadline {
+  margin-top: 3%;
+}
+.overview__view {
+  padding-left: 2%;
+  color: #18a88c;
+  font-weight: 200;
+  font-size: 13px;
+}
+.overview__view:hover {
+  color: green;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.overview__general {
+  font-weight: 600;
+  padding-left: 5%;
+}
+.overview__head {
+  color: white;
+  text-shadow: 0px 2px 0px 2px white !important;
+  padding-left: 10%;
+  font-size: 18px;
+}
+.overview__card1 {
+  width: 92% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  margin-left: 5%;
+  margin-top: 1% !important;
+  height: 350px;
+}
+.overview__card2 {
+  width: 92% !important;
+  margin-right: 5%;
+  padding-left: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  margin-top: 1% !important;
+  height: 350px;
+}
+.overview__total {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+.overview__name {
+  font-weight: 600;
+  font-size: 16px;
+  color: lightgray;
+}
+.overview__bt {
+  border-radius: 80%;
+  color: #18a88c;
+  font-size: 13px;
+  background-color: #18a88c;
+  border: none;
+}
+
+#bt2 {
+  background-color: #0286ff !important;
+  color: #0286ff;
+}
+
+#bt1 {
+  background-color: #ff5656 !important;
+  color: #ff5656;
+}
+.overview__per {
+  font-weight: 600;
+  font-size: 16px;
+}
+@media screen and(max-width: 500px) {
+  .overview__total {
+    padding-left: 45% !important;
+  }
+  .overview__legends {
+    padding-left: 40%;
+  }
+  .overview__pie1 {
+    padding-left: 5%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .overview__pie1 {
+    padding-left: 27%;
+  }
+}
+.overview__legends {
+  height: 30%;
+  border-style: none !important;
+  padding-top: 2%;
+  padding-left: 18%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .overview__pie1 {
+    padding-left: 16%;
+  }
+  .overview__legends {
+    width: 100%;
+    padding-left: 12%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .overview__pie1 {
+    padding-left: 18%;
+  }
+  .overview__legends {
+    padding-left: 43%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .overview__pie1 {
+    padding-left: 6%;
+  }
+  .overview__legends {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .overview__card1 {
+    padding-left: 0%;
+  }
+  .overview__total {
+    padding-left: 15%;
+  }
+  .overview__legends {
+    padding-left: 45%;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .overview__card1 {
+    padding-left: 0%;
+  }
+  .overview__pie1 {
+    padding-left: 10%;
+  }
+  .overview__total {
+    padding-left: 1%;
+  }
+  .overview__legends {
+    padding-left: 40%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .overview__card1 {
+    height: 500px;
+  }
+  .overview__card2 {
+    margin-left: 5%;
+    height: 430px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .overview__pie1 {
+    padding-right: 10% !important;
+  }
+}
+
+.overview__table__one {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.overview__table__two {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+#txt {
+  padding-bottom: 10%;
+}
+.overview__t1 {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.overview__time1 {
+  color: #18a88c;
+  padding-left: 20%;
+  font-weight: 1000;
+}
+
+.overview__time2 {
+  color: #ff5656;
+  padding-left: 20%;
+  font-weight: 1000;
+}
+
+.overview__time3 {
+  color: #0286ff;
+  padding-left: 20%;
+  font-weight: 1000;
+}
+.overview__heading {
+  font-weight: 1000;
+  color: #ff5656;
+  font-size: 18px;
+  padding-left: 27%;
+  padding-bottom: 5%;
+}
