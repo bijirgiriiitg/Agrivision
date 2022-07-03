@@ -1,0 +1,509 @@
+
+
+
+.hero-container{
+    margin: 32px;
+}
+.headColumnDivider{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: 
+    #17A388;
+  
+}
+.headColOne p{
+    margin-bottom: 16px;
+    padding: 8px 8px;
+    display: flex;
+}
+.headColOne{
+   
+    margin-left: 14px;
+    color: white;
+    position: relative;
+    /* margin : 0 auto;  */
+}
+.bodyWrapper{
+    margin: 22px 60px;
+}
+.headBtn{
+    font-size: 18px;
+      padding: 8px 28px;
+      border-radius: 6px;
+      cursor: pointer;
+    margin-top: 60px;
+    border: white 2px solid;
+    color: white;
+    background-color: transparent;
+}
+.headBtn:hover{
+    color: rgb(7, 6, 6); 
+    border-color: rgb(0, 0, 0);
+    transition: all 0.2s linear;
+}
+
+.headBtn2{
+    font-size: 18px;
+    padding: 8px 47px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: white 2px solid;
+    color: white;
+    background-color: transparent;
+}
+.headBtn2:hover{
+    color: rgb(7, 6, 6); 
+    border-color: rgb(0, 0, 0);
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .headColumnDivider{
+        flex-direction: column;   
+        background-color: white;
+    }
+    .headColOne{
+        color: black;
+    } 
+   .headBtn{
+       margin-top: 10px;
+       border: black 1px solid;
+      color: black;
+      font-size: 11px;
+      padding: 5px 18px;
+   }
+   .headBtn2{
+    margin-top: 10px;
+    border: black 1px solid;
+   color: black;
+   font-size: 11px;
+   padding: 5px 30px;
+}
+   .headColOne p{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}  
+.headColOne h1{
+    font-size: 23px;
+}
+  }
+
+
+
+
+.midColOne{
+    width: 70%; 
+}
+.midSection{
+    display: flex;
+    height: 20rem;
+}
+.courseLisItem{
+    align-items: center;
+}
+.midSection li{  
+    display: flex;
+    list-style: none;
+    font-size: 1rem;  
+}
+.divider{
+    margin-top: 1rem;
+    display: flex;
+}
+.dividerTwo{
+    margin-top: 1rem;  
+}
+.midColTwo{  
+    width: 30%;
+}
+.midColOne li{ 
+    padding: 0.5rem 0px;
+}
+.midColTwo ,.midColTwo li{
+    padding: 0.2rem 0px;
+    margin-left: 0.5rem;
+    
+}
+.midColTwo li{
+    align-items: center;
+    margin-bottom: 6px;
+    display: flex;
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+   .midSection{
+       flex-direction: column;
+   }
+   .midColOne{
+       width: 100%;
+   }
+   .midColOne h2{
+       font-size: 17px;
+   }
+   .midColOne li{ 
+    padding: 0.1rem 0px;
+    font-size: 10px;
+}
+  .midColTwo{
+      margin-top: 7px;
+      /* background-color: wheat; */
+      width: 100%;
+  }
+  .midColTwo h2{
+    font-size: 17px;
+  }
+  .midColTwo li{
+      font-size: 10px;
+      padding: 0px;
+  }
+
+
+  }
+
+
+
+.MobilePayCard{
+    display: none;
+}
+.cardWrapper{
+    display: flex;
+}
+.cardHeader {
+    display: flex;
+}
+.dividerTwo li{
+    display: flex;
+    margin-bottom: 4px;
+}
+.spanDiv{
+    position: relative;
+    left: 45.3rem;   
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .cardHeader h1{
+        font-size: 17px;
+    }
+    .cardSection{
+        margin-top: 2rem;
+    }
+    .starDiv{
+        display: flex;
+    }
+
+   }
+
+
+
+
+.feedbackWrapper{
+    margin-left: 1rem;
+    display: flex;
+    height: 39vh;
+    /* margin-bottom: 52px */
+}
+.feedColOne{
+    text-align: center;
+    width: auto;
+    height: max-content;
+    margin-top: 2rem; 
+}
+.feedColOne h1 {
+    font-size: 3rem; 
+}
+.feedback{
+    margin-top: 2rem;
+    height: 16rem;
+}
+.feedColTwo{
+    padding: 6px;
+    margin-top: 22px;
+    margin-left: 1rem;
+    /* background-color: bisque; */
+}
+.MuiLinearProgress-barColorPrimary {
+    background-color: rgb(97, 235, 93) !important;
+}
+.bar{
+    align-items: center;
+    margin-bottom: 6px 0;
+    /* margin: 6px 3rem; */
+    /* position: relative;
+    top: 2rem; */
+    display: flex;
+    /* background-color: cyan; */
+}
+.bar span{
+    margin-left: 0.5rem;
+    position: relative;
+    margin-right: 0.3rem;
+}
+.barPercentCont{
+    display: flex;
+   width: 34.2rem;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .feedback{
+       
+        height: 14rem;
+       
+    }
+      .feedback >h1{
+        font-size: 17px;
+      }
+      .feedbackWrapper{
+          width: 100%;
+          margin-left: 0%;
+      }
+      .bar{
+          margin-left: 1.2rem;
+      }
+      .starDiv{
+          padding: 0%;
+          display: flex;
+      }
+      .feedColOne{
+          margin-left: 1rem;
+      }
+      .feedColOne h1{
+          font-size: 2em;
+      }
+      .bar >span{
+          font-size: 6px;
+          padding: 0%;
+      }
+      .spanPercent{
+          font-size: 10px;
+      }
+      .bar span{
+          padding: 0%;
+      }
+      .feedColOne p{
+          font-size: 14px;
+      }
+      .tension{
+          display: none;
+      }
+      .barPercentCont{
+            width: 2rem;
+      }
+     .feedColTwo{
+        margin-left: 0%;
+        padding: 0%;
+     }
+      
+   }
+
+
+
+
+.circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 60px;
+    height: 60px;
+  }
+ .top{
+     display: flex;
+     align-items: center;
+ }
+ .btndiv{
+    margin-left: auto;
+ }
+ .top h2{
+     margin: 0 1.4rem
+ }
+
+.reviewWrapper{
+    padding: 1rem 1rem;
+    margin: 1.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    margin-left: 5.2rem;
+    
+}
+.review h1{
+    margin-left: 0.8rem;
+}
+.bottom p{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .top h2{
+        font-size: 12px;
+    }
+    .review h1{
+        font-size: 17px;
+    }
+    .reviewWrapper p{
+        font-size: 8px;
+    }
+    .bottom p{
+        margin-top: 0.2rem;
+    }
+    .reviewWrapper{
+        margin-top: 4px;
+        margin-bottom: 6px;
+        padding: 0%;
+        justify-content: flex-start;
+        
+    }
+    .MuiButton-label{
+        font-size: 7px;
+        width: auto;
+    }
+
+   }
+
+   @media screen and (max-width: 1028px) {
+    .starDiv{
+        display: flex;  
+    }
+    .paystyledCard{
+        display: none;
+    }
+    .MobilePayCard{
+        display: block;
+    }
+    
+
+   }
+
+.feedback span{
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.styledCard{
+    background-color: white;
+  width: 335px;
+  height: 360px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.paystyledCard{
+    background-color: white;
+    min-width: 300px;
+  width: 335px;
+  height: 400px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.payCardHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    height: 175px;
+    color: white;
+    position: relative;
+}
+.pcHead{
+    display: flex;
+    justify-content: space-between;
+}
+.payCardHead h1{
+    font-size: 2rem;
+}
+.payCardContent h3{
+    font-size: 1rem;
+}
+.pcHead span{
+  
+    font-size: 1rem;
+    background-color: #c4c3c3;
+    border-radius: 6px;
+    text-align: center;
+    width: 7rem;
+    height: 1.7rem;
+}
+.payCardContent{
+    padding: 12px 22px;
+    background-color: white;
+}
+ li{
+    list-style: none;
+}
+.headCardContentWrapper{
+    padding: 4px 6px;
+    display: flex;
+    flex-direction: column;
+}
+.headCardContentWrapper button{
+    margin: 7px 0px;
+}
+.headCardHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    background: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80") no-repeat center;
+    color: white;
+    position: relative;
+}
+
+
+
+
+.sc-bQdRvg{
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 768px) {
+ .styledCard{
+       width: 100%;
+      margin-left: 0%;
+}
+
+
+/* .cardSection{
+    display: none;
+} */
+.bodyWrapper{
+    margin: 0% auto;
+}
+.hero-container{
+    margin: 0%;
+}
+    
+  }

@@ -1,0 +1,124 @@
+.coCardWrapper{
+  
+    width: 307px;
+    max-width: 90rem;
+    height: 298px;
+    
+    /* column-gap: 3rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.coCardHead{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.priceTag{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+font-weight: 500;
+color: #17a388;
+line-height: 28px;
+}
+.gap{
+    display: flex;
+    margin-bottom: auto;
+}
+.coCardBtn{
+    font-size: 5rem;
+    width: 100%;
+}
+.coCardCont{
+    font-size: 24px;
+}
+.coCardInput input{
+    height: 2.5rem;
+    width: auto;
+    border: 1px solid black;
+}
+.inp{
+    width: 14.2rem !important;
+    padding: 0.8rem 0.6rem;
+}
+.sub{
+    color: white;
+    padding: 0 1rem;
+    background-color: #17a388;
+}
+
+
+.payBodyWrapper{
+    margin: 3rem 5rem;
+    /* background-color: turquoise; */
+}
+.payContContainer{
+  display: flex;
+  justify-content: space-between;
+}
+ .payHeadTitle h2{
+     margin-bottom: 0.5rem;
+     font-size: 2.6rem;
+ }
+ .payHeadTitle h4{
+     margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.payContCard{
+    justify-content: space-between;
+    display: flex;
+
+}
+.payBodyCont{
+    margin-top: 3rem;
+}
+.payBodyCont h2{
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .payContContainer{
+        flex-direction: column;
+    }
+    .hero-container{
+        margin: 0%;
+        padding: 0%;
+    }
+    .payBodyWrapper{
+        margin: 0%;
+    }
+    .coCardWrapper{
+        width: auto;
+        margin-top: 1rem;
+        text-align: center;
+        padding: 0%;
+    }
+    .payHeadTitle h2{
+        font-size: 2rem;
+        
+    }
+    .gap{
+        margin-bottom: 7px;
+    }
+    .coCardWrapper{
+        height: auto;
+    }
+
+   }
+
+
+   
+@media screen and (max-width: 1009px) {
+    .payContContainer{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .coCardWrapper{
+        width: auto;
+        text-align: center;
+    }
+    
+   }
