@@ -1,0 +1,436 @@
+.dashPriceTag {
+  font-weight: 500;
+  color: #17a388;
+}
+
+.dashStyledCard {
+  /* width: 335px; */
+  /* width: 80%; */
+  height: 160px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+  border-radius: 0px 0px 5px 5px;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dashCardHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  background: url("https://www.teahub.io/photos/full/200-2006588_aesthetic-yellow-and-orange-background.jpg")
+    no-repeat center;
+  color: white;
+  position: relative;
+}
+.dashContHead {
+  justify-content: space-between;
+  display: flex;
+}
+.dashCardContent {
+  margin: 13px 9px;
+}
+
+.dashGlobalContainer {
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 400px;
+  /* width: 24rem; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  overflow-y: auto;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.dashWrapper {
+  margin: 2rem;
+}
+.dashHead {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 4rem;
+}
+.dashHead .Welcome {
+  /* flex-basis: 0;
+  flex-grow: 2; */
+  min-width: 0;
+}
+.dashHead .Activity {
+  /* flex-basis: 0;  
+  flex-grow: 1; */
+  min-width: 0;
+}
+.dashBody {
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4rem;
+}
+.dashCardCont {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  flex-basis: 0;
+  min-width: 0;
+}
+.dashCardContHead {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dashCard__viewAll {
+  right: 0%;
+  position: absolute;
+}
+.dashCard__ongoing {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.dashCardContHead span {
+  color: #17a388;
+}
+.dashCardContHead p {
+  margin-left: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* .dashContHead h3{
+      font-size: 1.1rem;
+      font-weight: 500;
+  } */
+.dashCardWrapper {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  column-gap: 2rem;
+}
+.dashBottom {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4rem;
+}
+.dashProgressDiv {
+  position: relative;
+  /* width: 65%; */
+  flex-basis: 0;
+  min-width: 0;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.dashQuizDiv {
+  flex-basis: 0;
+  min-width: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* .dashBarDiv {
+  margin-top: 24px;
+} */
+
+.dashbarBorder {
+  position: relative;
+  padding: 6px 23px;
+  border-radius: 3px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  flex-grow: 1;
+}
+.dashBottom h1 {
+  margin-bottom: 6px;
+}
+
+.calendar {
+  margin-left: 0%;
+  margin: 0%;
+  margin-right: 0%;
+  width: 100%;
+  text-decoration: none !important;
+  border: none;
+}
+.dashCalenderDiv {
+  /* width: 33%; */
+  flex-basis: 0;
+  min-width: 0;
+  flex-grow: 1;
+}
+.dashCalenderBorder {
+  padding: 1rem;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  border-radius: 3px;
+  height: 90%;
+}
+.dashReminderHead {
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.dashReminderHead button {
+  top: 7px;
+  background-color: #ecf2f1;
+  border: black;
+  width: 36px;
+  height: 19px;
+}
+.dashReminderDiv {
+  background-color: #ecf2f1;
+  margin: 1rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+  height: 100px;
+  overflow: auto;
+}
+.dashReminderHead p {
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 40px;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+.flexDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dashCourseCardBottom button {
+  background-color: white;
+  border: none;
+  color: #1bbc9b;
+  margin-top: 9px;
+  font-size: 17px;
+}
+.txt-alg-center {
+  text-align: center;
+}
+
+.dashWrapper h1 {
+  font-size: 1.5rem;
+}
+.activity span {
+  font-size: 1.4rem;
+}
+.dashContHead h3 {
+  font-size: 1.3rem;
+}
+
+.sidebar {
+  background-color: #fff;
+  width: 50vw;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 10px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.heading {
+  font-size: 2rem;
+  padding: 3rem;
+}
+.progress-table {
+  text-align: center;
+}
+.p-table {
+  margin: auto;
+  width: 75%;
+  font-size: 0.8rem;
+}
+.p-table td {
+  padding: 10px;
+  width: 12.25%;
+  /* width: 12px; */
+  color: rgba(0, 0, 0, 0.5);
+}
+.p-table .day-active {
+  color: #000;
+  font-weight: bolder;
+}
+
+.stat-box {
+  padding: 16px;
+  width: 50%;
+  text-align: center;
+  margin: 3px;
+  border-radius: 19px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.stat-box .head {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px 2px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.stat-box .icon {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  margin-right: 10px;
+  margin-top: auto;
+  padding: 5px;
+}
+.stat-box .name {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  margin-left: auto;
+  text-align: left;
+}
+.stat-box .body {
+  font-size: 2rem;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.left,
+.right {
+  display: inline-block;
+  width: 50%;
+}
+.stats-body {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+}
+
+/* responsiveness */
+@media screen and (max-width: 760px) {
+  .sidebar {
+    width: 100vw;
+  }
+  .dashWrapper h1 {
+    font-size: 18px;
+  }
+  .dashCardContHead p {
+    position: relative;
+    top: 3px;
+    font-size: 11px;
+  }
+  .dashCardContHead span {
+    font-size: 11px;
+  }
+  .dashWrapper {
+    padding: 0%;
+    margin: 1rem;
+  }
+  .dashStyledCard {
+    width: 290px;
+  }
+
+  .dashReminderDiv {
+    margin: 0%;
+  }
+  .stats-body {
+    padding: 0%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .sidebar {
+    width: 75vw;
+  }
+}
+@media (max-width: 767px) {
+  .dashHead {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .displayHidden {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .dashBody {
+    flex-direction: column;
+  }
+  .dashCalenderDiv {
+    width: auto;
+  }
+  /* .dashCardWrapper {
+    justify-content: center;
+  } */
+  .dashBottom {
+    flex-direction: column;
+  }
+  .dashbarBorder {
+    height: auto;
+    /* min-width: 30rem !important; */
+  }
+  .dashProgressDiv {
+    width: 100%;
+    height: auto;
+  }
+  .dashQuizDiv {
+    margin-top: 16px;
+  }
+  .dashGlobalContainer {
+    align-items: center;
+    width: auto;
+  }
+  .dashStyledCard {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .dashbarBorder {
+    width: 100%;
+  }
+}
+
+.form {
+  position: relative;
+  width: 20rem;
+  height: 3rem;
+}
+.form__input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e1e5ee;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  outline: none;
+  padding: 1rem;
+  margin-bottom: 14px;
+  background: white;
+}
+
+.form__input:hover {
+  border-color: #adffff;
+}
+
+.form__input:focus {
+  border-color: #18ffff;
+}
+
+.form__label {
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  padding: 0 0.5rem;
+  color: rgba(0, 0, 0, 0.658);
+  cursor: text;
+  -webkit-transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
