@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+}
+.left{
+    background: #F3F3F3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 30%;
+      height: 60vw;
+     align-items: center;
+     padding-top: 5%;
+}
+.contentOfBar{
+    margin-top: -50%;
+    margin-left: -22%;
+    line-height: 1.2vw;
+    text-align: center;
+}
+.number{
+    font-size: 72%;
+}
+.text{
+    font-size: 55%;
+    margin:0;
+    color: #0B6E4F;
+    margin-top: -10%;
+}
+.streak{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.streakContent{
+   flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+   
+}
+.topic{
+    margin: 0;
+    transform: translateY(-100%);
+}
+.streakText{
+    width: 40%;
+    color: #5F5F5F;
+    font-size: 120%;
+}
+.streakNumber{
+    font-size: 300%;
+    margin: 0;
+    color: #0B6E4F;
+}
+.heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 220%;
+    color: #0B6E4F;
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    gap: 2%;
+    justify-content: center;
+}
+.point{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    color: #5F5F5F;
+    font-size: 150%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:5%;
+    
+}
+.upper{
+    background: #FFFFFF;
+    margin-top: -20%;
+    border: 1.5px solid #5F5F5F;
+    border-radius: 12px;
+    width: 80%;
+    transform: translateY(-20%);
+    padding:3%;
+}
+.img{
+    width: 100%;
+}
+.upperHeading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 220%;
+    color: #0B6E4F;
+}
+.upperIcons{
+    display: flex;
+    justify-content: space-between;
+}
+.upperIcon{
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.upperText{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #5F5F5F;
+    margin-top: 10%;
+
+}
+.uicon{
+   
+   flex: 1;
+    color: #13AE7E;
+}
+.lower{
+    background: #FFFFFF;
+border: 1.5px solid #5F5F5F;
+border-radius: 12px;
+}
