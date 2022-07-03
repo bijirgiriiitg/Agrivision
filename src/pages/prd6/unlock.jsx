@@ -5,7 +5,9 @@ import { Button } from "react-bootstrap";
 import { MdBookmarkBorder} from "react-icons/md";
 import logo from "./unlock.jpg"
 import { useHistory } from "react-router-dom";
+import styles from "./styles.module.css";
 import Chevron from "react-chevron";
+
 import Sarthak from "../../components/prd6/Topic/NavBar";
 const TabsContainer = styled.div`
   display: flex;
@@ -27,14 +29,14 @@ export default function Apkk() {
 
   return (
     <>
-    <Sarthak className="nav1"/>
-    <div className="Appyy">
+    <Sarthak/>
+    <div className={styles.Appyy}>
       <TabsContainer>
         <Tabs selectedTab={activeTab} onChange={handleChange}>
           <Tab label="Dashboard" value={0}></Tab>
-          <Chevron className="chevrony" />
+          <Chevron className={styles.chevrony} />
           <Tab label="Food Technology" value={1}></Tab>
-          <Chevron className="chevrony" />
+          <Chevron className={styles.chevrony} />
           <Tab label="Agriculture machinery" value={2}></Tab>
         </Tabs>
       </TabsContainer>
@@ -44,15 +46,15 @@ export default function Apkk() {
         <TabPanel value={activeTab} selectedIndex={1}>
         </TabPanel>
         <TabPanel value={activeTab} selectedIndex={2}>
-          <h1 className="tab31">Food Technology : Agriculture machinery</h1>
-          <div className="bt01">
-            <Button onClick={() => history('/bookmarks')} className="bt0"><MdBookmarkBorder className="oye100" />Bookmark</Button>
+          <h1 className={styles.tab31}>Food Technology : Agriculture machinery</h1>
+          <div className={styles.bt01}>
+            <Button onClick={() => history('/bookmarks')} className={styles.bt0}><MdBookmarkBorder className={styles.oye100}/>Bookmark</Button>
           </div>
-          <img className="org1" src={logo} alt="/"/>
-          <div className="bt140">
-            <Button className="bt130">Unlock Now</Button>          
+          <img className={styles.org1} src={logo} alt="/"/>
+          <div className={styles.bt140}>
+            <Button className={styles.bt130}>Unlock Now</Button>          
           </div>
-          <p className="paisa">for only <span className="shi">₹ 5475475</span></p>
+          <p className={styles.paisa}>for only <span className={styles.shi}>₹ 5475475</span></p>
         </TabPanel>
       </TabPanelContainer>
     </div>
