@@ -20,6 +20,7 @@ h1 {
   color: rgb(8, 7, 7);
   height: 100vh;
   margin-left: 26%;
+  margin-top: -15%;
 }
 .Appyy {
   font-family: sans-serif;
@@ -28,6 +29,7 @@ h1 {
   color: rgb(8, 7, 7);
   height: 100vh;
   margin-left: 25%;
+  margin-top: -15%;
 
 }
 .chevrony{
@@ -126,20 +128,21 @@ h1 {
 }
 .bt01{
   border-radius: 2px;
-  height: 700px;
-  width: 35vw;
+  height: 40px;
+  width: 30vw;
   display: flex;
   margin-left: 30%;
   position: absolute;
 }
 .bt0{
-  background-color: #fff;
+  background-color: rgb(21, 193, 130);
   height: 3vw;
   color: #fff;
+  width: 15vw;
   border-radius: 3px;
   border-color: green;
   font-weight: 600;
-  margin: -4px 10px;
+  margin-left: 25%;
 }
 .bt0:hover{
   background-color: none;
@@ -147,9 +150,8 @@ h1 {
 .oye100{
   font-size: 35px;
   position: absolute;
-  padding: 0px 3px;
-  margin-left: -25%;
-  margin-top: -3%;
+  margin-left: -13%;
+  margin-top: -1%;
 }
 .bt140{
   margin: 45vw;
@@ -158,8 +160,11 @@ h1 {
   color: #fff;
   position: absolute;
   border: none;
-  width: 40%;
-  margin-left: -3%;
+  width: 50%;
+  margin-left: 2%;
+}
+.bt130{
+  width: 25%;
 }
 .bt3{
   margin: 48vw;
