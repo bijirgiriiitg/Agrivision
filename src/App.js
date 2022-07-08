@@ -44,15 +44,27 @@ import Apkk from "./pages/prd6/unlock";
 import Appk from "./pages/prd6/food";
 import Activity from "./pages/prd6/Activity";
 import Home1 from "./components/prd6/Topic/Topic";
-
+import './App.css';
+import Sidebar from './components/prd6/Sidebar';
+import { ReportsOne, ReportsTwo, ReportsThree, ReportsFour } from './pages/prd6/Reports';
+//import Team from './pages/prd6/Team';
+//import Apkk from "./pages/prd6/unlock";
+//import Appk from "./pages/prd6/food";
 function App() {
   return (
     <Router>
       <Switch>
+      <Route path='/reports' exact component={Sidebar} />
+      
+      <Route path='/reports/reports1' exact component={ReportsOne} />
+      <Route path='/reports/reports2' exact component={ReportsTwo} />
+      <Route path='/reports/reports3' exact component={ReportsThree} />
+      <Route path='/reports/reports4' exact component={ReportsFour} />
+      <Route path='/activity' exact component={Activity} />
+    
         <Route  path="/food-technology" exact component={Appk}/>
         <Route  path="/unlock" exact component={Apkk}/>
-        <Route path="/notes3" element={<Home1/>} /> 
-        <Route path="/activity" element={<Activity />} />
+        <Route path="/notes3" element={Home1} /> 
         <Route path="/" exact component={Home} />
         <Route path="/aboutUs" exact component={AboutUs} />
         <Route path="/whychooseus" exact component={WhyChoose} />
